@@ -1,0 +1,33 @@
+{
+  "name": "reyvoice-bot",
+  "version": "1.0.0",
+  "description": "Discord-бот ReyVoice для озвучивания текста и безопасного клонирования голосов по согласию.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "tts",
+    "voice",
+    "reyvoice"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "axios": "^1.7.9",
+    "better-sqlite3": "^11.8.1",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "ffmpeg-static": "^5.2.0",
+    "form-data": "^4.0.1",
+    "opusscript": "^0.0.8",
+    "prism-media": "^1.3.5"
+  }
+}
